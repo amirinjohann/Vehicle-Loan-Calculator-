@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/calculator" />
+
+    <TextView
+        android:id="@+id/author_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Name: MUHAMMAD KHAIRULAMIRIN BIN JOHAN Matric No: 2023816904\n Course: ICT602 MOBILE TECHNOLOGY AND DEVELOPMENT  "
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/copyright_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="amirinjohann © 2025"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/github_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="https://github.com/amirinjohann/Vehicle-Loan-Calculator-.git"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/subtle_green"
+        android:textColor="@android:color/white"
+        android:text="Back"/>
+
+</LinearLayout>
